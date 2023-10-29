@@ -62,7 +62,7 @@ SELECT d.mgr.ename, d.mgr.salary, d.dname FROM dept_table d;
 ## Inheritance
 
 ```sql
-t-- CREATE SUPPER CLASS
+-- CREATE SUPPER CLASS
 CREATE TYPE person_nt AS OBJECT(
     id NUMBER(4),
     name VARCHAR2(20)
